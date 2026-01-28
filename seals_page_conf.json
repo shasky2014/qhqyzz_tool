@@ -1,0 +1,32 @@
+{
+  "l1": {
+    "startNumber": 1,
+    "endNumber": 7,
+    "imagesPerRow": 7,
+    "imagePathPrefix": "./extracted_objects/seal_l1_0",
+    "imageExtension": ".png",
+    "paddingZeros": 4,
+    "seal_level": "l1",
+    "classname": "seal-container"
+  },
+  "l2": {
+    "startNumber": 1,
+    "endNumber": 8,
+    "imagesPerRow": 8,
+    "imagePathPrefix": "./extracted_objects/seal_l2_0",
+    "imageExtension": ".png",
+    "paddingZeros": 4,
+    "seal_level": "l2",
+    "classname": "seal-container"
+  },
+  "l3": {
+    "startNumber": 1,
+    "endNumber": 6,
+    "imagesPerRow": 6,
+    "imagePathPrefix": "./extracted_objects/seal_l3_0",
+    "imageExtension": ".png",
+    "paddingZeros": 4,
+    "seal_level": "l3",
+    "classname": "seal-container"
+  }
+}

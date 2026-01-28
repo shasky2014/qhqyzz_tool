@@ -1,0 +1,587 @@
+{
+    "lv1":{
+        "fu_0020.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0025.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0030.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0035.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0036.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0037.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0038.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0042.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0046.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0047.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0049.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0058.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0065.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0066.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0067.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0089.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0090.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0091.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0092.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0093.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0094.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0096.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0097.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0098.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0099.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0100.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0101.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0102.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0105.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0106.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0110.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0159.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0163.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0164.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0165.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0168.png":{
+                        "name":"",
+                        "description":""
+                        } 
+    },
+    "lv2":{
+        "fu_0004.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0007.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0009.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0016.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0018.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0019.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0023.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0024.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0027.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0028.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0029.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0031.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0032.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0033.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0040.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0064.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0071.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0074.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0075.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0076.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0077.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0080.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0082.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0095.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0108.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0111.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0112.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0113.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0115.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0116.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0118.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0119.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0120.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0122.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0124.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0126.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0127.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0128.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0130.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0131.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0132.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0133.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0134.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0135.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0160.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0161.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0166.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0167.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0169.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0170.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0171.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0173.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0174.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0175.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0176.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0177.png":{
+                        "name":"",
+                        "description":""
+                        } 
+    },
+    "lv3":{
+        "fu_0001.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0002.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0006.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0011.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0012.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0014.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0129.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0136.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0137.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0138.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0139.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0141.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0142.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0143.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0144.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0145.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0146.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0147.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0148.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0149.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0151.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0152.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0153.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0154.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0158.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0162.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0172.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0178.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0179.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0180.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0181.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0182.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0183.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0184.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0185.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0186.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0187.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0188.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0189.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0190.png":{
+                        "name":"",
+                        "description":""
+                        } ,
+        "fu_0191.png":{
+                        "name":"",
+                        "description":""
+                        } 
+    },
+    "lv4":{
+        "fu_0013.png":{
+                        "name":"护身礼包",
+                        "description":"+0分。效果量为本轮游戏累计升级与购买护身符消费星币的数量的8倍",
+                        "plus":"+0分。效果量为本轮游戏累计升级与购买护身符消费星币的数量的12倍"
+                        } ,
+        "fu_0017.png":{
+                        "name":"天之恩惠",
+                        "description":"和牌时，每有1张宝牌或魂牌则+1星币",
+                        "plus":"和牌时，每有1张宝牌或魂牌则+2星币"
+                        } ,
+        "fu_0079.png":{
+                        "name":"岚星•影分身",
+                        "description":"和牌时复制右侧护身符的效果（本护身符不会被重复触发）",
+                        "plus":"+10番，和牌时复制右侧护身符的效果（本护身符不会被重复触发）"
+                        } ,
+        "fu_0156.png":{
+                        "name":"魔法开锁匠柚",
+                        "description":"锁定3张待摸牌。每有1张牌被锁定时本护身符获得x2番，如果它是魂牌则再获得x1番（当前为x1番）",
+                        "plus":"锁定3张待摸牌。每有1张牌被锁定时本护身符获得x3番，如果它是魂牌则再获得x2番（当前为x1番）"
+                        } ,
+        "fu_0157.png":{
+                        "name":"万象天引",
+                        "description":"关卡开始时，拥有1张无法打出的百搭牌（百搭牌不会算为宝牌和魂牌）",
+                        "plus":"换牌次数+2。关卡开始时，拥有1张无法打出的百搭牌（百搭牌不会算为宝牌和魂牌）"
+                        } ,
+        "fu_0192.png":{
+                        "name":"附魔师卡维",
+                        "description":"本护身符一定会有印章。关卡开始前，使左侧相邻的护身符获得相同的印章。",
+                        "plus":"本护身符一定会有印章。关卡开始前，使两侧相邻的护身符获得相同的印章。"
+                        } ,
+        "fu_0193.png":{
+                        "name":"全能护符改造王",
+                        "description":"关卡结束时，使本护身符右侧相邻的护身符，变为更高1级品质的随机护身符",
+                        "plus":"关卡结束时，使本护身符右侧相邻的护身符，变为更高2级品质的随机护身符"
+                        } ,
+        "fu_0194.png":{
+                        "name":"星际黑客凌",
+                        "description":"关卡开始前，获得随机其他1个最低品质护身符的效果（关卡结束时失去效果，关卡开始前，获得效果！）",
+                        "plus":"换牌次数+1。关卡开始前，获得随机其他1个最低品质护身符的效果（关卡结束时失去效果，关卡开始前，获得效果！）"
+                        } ,
+        "fu_0195.png":{
+                        "name":"植物学家二之宫",
+                        "description":"关卡结束时，随机使2种牌的基础分值变为与最高数值相同",
+                        "plus":"关卡结束时，随机使3种牌的基础分值变为与最高数值相同"
+                        } 
+    }
+}

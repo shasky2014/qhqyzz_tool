@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.toggle-header {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari兼容性前缀 */
+    user-select: none;
+    position: relative;
+}
+
+td {
+  /* border: 1px solid #ddd; */
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container {
+  display: block
+}
+
+
+.note-marker {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    font-size: 0.5em;
+    color: #f90000;
+    background-color: transparent;
+    z-index: 1001;
+}
+
+.notes-section {
+    position: relative;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.notes-section p {
+    margin: 10px 0;
+    color: #0025f9;
+    line-height: 1.1;
+}
+
+.seal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+#seal-info-popup{
+    position: fixed;
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+    width: 200px;        /* 固定宽度 */
+    overflow-y: auto;
+}
+
+#seal-info-popup h2 {
+    margin: 0 auto;
+    text-align: center;  /* 文本居中 */
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+#seal-info-popup h3 {
+    margin: 5px 0;
+    padding-bottom: 5px;
+    line-height: 1.4;
+}
+
+#seal-info-popup h4 {
+    margin: 5px 0;
+    padding-bottom: 5px;
+    line-height: 1.1;
+}
+
+
+img {
+  max-width: none;
+  /* 移除最大宽度限制 */
+  max-height: none;
+  /* 移除最大高度限制 */
+  width: auto;
+  /* 按原始尺寸显示 */
+  height: auto;
+  /* 按原始尺寸显示 */
+  object-fit: none;
+  /* 不应用填充/裁剪 */
+  cursor: pointer;
+  /* 鼠标悬停时显示手型光标 */
+  transition: transform 0.2s ease-in-out;
+  /* 添加过渡动画 */
+}
+
+img:hover {
+  transform: scale(1.05);
+  /* 轻微放大 */
+}
+
+.fu-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.fu-item {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.fu-item:hover {
+  transform: scale(1.05);
+}
+
+.fu-foreground-img {
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fu-foreground-img:hover {
+  opacity: 0.9;
+}

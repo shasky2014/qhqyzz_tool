@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="qh_qyzz_helper_tools.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico">
+    <link rel="stylesheet" href="01.css"></link>
+    <title>雀魂-青云之志-护身符&印章</title>
+</head>
+
+<body>
+    <h1 class="toggle-header" id="seals-toggle-header">
+        <span class="toggle-text" onclick="toggleSeals('seals')">印章</span>
+    </h1>
+
+    <div id="seals-container" class="container">   
+        <div id="seals_l1"></div>
+        <div id="seals_l2"></div>
+        <div id="seals_l3"></div>
+    </div>
+
+    <h1 class="toggle-header" id="fu-toggle-header">
+        <span class="toggle-text" onclick="toggleSeals('fu')">护身符</span>
+    </h1>
+
+    <div id="fu-container" class="container">
+        <div id="fu-lv4" class="fu-level-section">
+            <p>神话</p>
+        </div>
+        <div id="fu-lv3" class="fu-level-section">
+            <p>传说</p>
+        </div>
+        <div id="fu-lv2" class="fu-level-section"> 
+            <p>稀有</p>
+        </div>
+        <div id="fu-lv1" class="fu-level-section">
+            <p>普通</p>
+        </div>
+    </div>
+
+    <script type="module">
+        document.addEventListener('DOMContentLoaded', function () {
+            Promise.all([
+                loadJSONData('./seal_info.json'),
+                loadJSONData('./fu_info.json'),
+                loadJSONData('./seals_page_conf.json'),
+                loadJSONData('./fu_page_conf.json')
+            ]).then(([sealsData, fuData, confData,fu_conf]) => {
+                // 现在这些数据可以直接当作Map/dict使用
+                window.sealsinfo = sealsData;
+                window.fusinfo = fuData;
+                window.sealspageconf = confData;
+                window.fu_page_conf = fu_conf;
+
+                const seals_l1 = confData.l1
+                const seals_l2 = confData.l2
+                const seals_l3 = confData.l3
+
+                create_seals('seals_l1', seals_l1, sealsData.l1);
+                create_seals('seals_l2', seals_l2, sealsData.l2);
+                create_seals('seals_l3', seals_l3, sealsData.l3);
+
+                loadFuImages(fuData,fu_conf);
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>

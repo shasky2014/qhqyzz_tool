@@ -1,0 +1,14 @@
+{
+    "lv1":{
+        "background":"extracted_objects/fubg_lv1.png"
+    },
+    "lv2":{
+        "background":"extracted_objects/fubg_lv2.png"
+    },
+    "lv3":{
+        "background":"extracted_objects/fubg_lv3.png"
+    },
+    "lv4":{
+        "background":"extracted_objects/fubg_lv4.png"
+    }
+}
