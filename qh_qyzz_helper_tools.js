@@ -46,10 +46,15 @@ function showSealInfo(img,event) {
     }
     popup = document.createElement('div');
     popup.id = 'seal-info-popup';
-    let infoContent ="";
-    infoContent += `<img src="${img.src}" alt="${img.alt}" style="max-width: 100%; height: auto; display: block; margin: 0 auto 10px;">`;
-    infoContent += `<h2>${img.sealname}</h2>`;
+    let imgCopy = img.cloneNode(true); // 如果不想移动原图，可以克隆一份
+    imgCopy.style.maxWidth = '100%';
+    imgCopy.style.height = 'auto';
+    imgCopy.style.display = 'block';
+    imgCopy.style.margin = '0 auto 10px';
 
+    let infoContent ="";
+    infoContent += imgCopy.outerHTML; // 使用克隆的图片
+    infoContent += `<h2>${img.sealname}</h2>`;
     infoContent += `<h3><strong>${img.description}</strong>  </h3>`;
 
     if (img.note) {
@@ -247,10 +252,37 @@ function showFuInfo(fu_info,fgImg,event) {
     }
     popup = document.createElement('div');
     popup.id = 'seal-info-popup';
-    let infoContent ="";
-    infoContent += `<img src="${fgImg.src}" alt="${fgImg.alt}" style="max-width: 100%; height: auto; display: block; margin: 0 auto 10px;">`;
-    infoContent += `<h2>${fu_info.name}</h2>`;
+    popup.style.cssText = `
+            position: fixed;
+        display: flex;
+        flex-direction: column;
+            border-radius: 8px;`;
 
+
+    let imgContainer = document.createElement('div');
+    imgContainer.style.cssText = `
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    `;
+
+    let imgCopy = fgImg.cloneNode(true);
+    imgCopy.style.cssText = `
+        max-width: 90%;
+        max-height: 90%;
+        object-fit: contain;
+    `;
+
+    imgContainer.appendChild(imgCopy);
+    popup.appendChild(imgContainer);
+
+    let infoContainer = document.createElement('div');
+    let infoContent ="";
+    // infoContent += imgCopy.outerHTML;
+    infoContent += `<h2>${fu_info.name}</h2>`;
     infoContent += `<h4>${fu_info.description}  </h4>`;
 
     if (fu_info.plus) {
@@ -273,8 +305,9 @@ function showFuInfo(fu_info,fgImg,event) {
         noteContent += '</div>';
         infoContent += noteContent;
     }
+    infoContainer.innerHTML = infoContent;
+    popup.appendChild(infoContainer);
 
-    popup.innerHTML = infoContent;
     const overlay = document.createElement('div');
     overlay.style.cssText = `
         position: fixed;
