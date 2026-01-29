@@ -235,7 +235,7 @@ function loadFuImages(fuData,fu_conf) {
             fuElement.addEventListener('click', function(event) {
                 // 这里可以添加点击事件的处理逻辑
                 console.log('点击了护身符:', fu_path, fu_info);
-                showFuInfo(fu_info,fgImg,event);
+                showFuInfo(fu_info,fuElement,event);
             });
 
 
@@ -253,33 +253,37 @@ function showFuInfo(fu_info,fgImg,event) {
     popup = document.createElement('div');
     popup.id = 'seal-info-popup';
     popup.style.cssText = `
-            position: fixed;
+        position: fixed;
         display: flex;
-        flex-direction: column;
-            border-radius: 8px;`;
+        flex-direction: row; /* 改为水平方向 */
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        width: 400px;
+        `;
 
 
     let imgContainer = document.createElement('div');
     imgContainer.style.cssText = `
-        flex: 1;
+        flex: 0 0 120px; 
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 10px;
-        border-bottom: 1px solid #eee;
+        border-right: 1px solid #eee; /* 分隔线 */
     `;
 
     let imgCopy = fgImg.cloneNode(true);
-    imgCopy.style.cssText = `
-        max-width: 90%;
-        max-height: 90%;
-        object-fit: contain;
-    `;
-
     imgContainer.appendChild(imgCopy);
     popup.appendChild(imgContainer);
 
     let infoContainer = document.createElement('div');
+    infoContainer.style.cssText = `
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    `;
+
     let infoContent ="";
     // infoContent += imgCopy.outerHTML;
     infoContent += `<h2>${fu_info.name}</h2>`;
@@ -306,6 +310,7 @@ function showFuInfo(fu_info,fgImg,event) {
         infoContent += noteContent;
     }
     infoContainer.innerHTML = infoContent;
+    
     popup.appendChild(infoContainer);
 
     const overlay = document.createElement('div');
