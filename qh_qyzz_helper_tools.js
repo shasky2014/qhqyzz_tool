@@ -235,7 +235,7 @@ function loadFuImages(fuData,fu_conf) {
             fuElement.addEventListener('click', function(event) {
                 // 这里可以添加点击事件的处理逻辑
                 console.log('点击了护身符:', fu_path, fu_info);
-                showFuInfo(fu_info,fuElement,event);
+                showFuInfo(fu_info,fuElement,key,event);
             });
 
 
@@ -244,7 +244,7 @@ function loadFuImages(fuData,fu_conf) {
     });
 }
 
-function showFuInfo(fu_info,fgImg,event) {
+function showFuInfo(fu_info,fgImg,key,event) {
     
     let popup = document.getElementById('seal-info-popup');
     if (popup) {
@@ -286,7 +286,7 @@ function showFuInfo(fu_info,fgImg,event) {
 
     let infoContent ="";
     // infoContent += imgCopy.outerHTML;
-    infoContent += `<h2>${fu_info.name}</h2>`;
+    infoContent += `<h2>${fu_info.name || key}</h2>`;
     infoContent += `<h4>${fu_info.description}  </h4>`;
 
     if (fu_info.plus) {
