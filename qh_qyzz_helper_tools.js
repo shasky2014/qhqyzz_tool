@@ -38,7 +38,7 @@ function toggleSeals(name) {
 }
     
 function showSealInfo(img,event) { 
-    console.log(img.sealname,img.description);
+    console.log(img.sealname,img.desc);
     
     let popup = document.getElementById('seal-info-popup');
     if (popup) {
@@ -55,7 +55,7 @@ function showSealInfo(img,event) {
     let infoContent ="";
     infoContent += imgCopy.outerHTML; // 使用克隆的图片
     infoContent += `<h2>${img.sealname}</h2>`;
-    infoContent += `<h3><strong>${img.description}</strong>  </h3>`;
+    infoContent += `<h3><strong>${img.desc}</strong>  </h3>`;
 
     if (img.note) {
         let noteContent = "";
@@ -130,7 +130,7 @@ function create_seals(eid,conf,seal_info) {
         img.src = `${conf.imagePathPrefix}${PN}${conf.imageExtension}`;
         img.alt = `seal_${conf.seal_level}_0${PN}`;
         img.sealname = seal_info[PN]["name"]
-        img.description = seal_info[PN]['description']
+        img.desc = seal_info[PN]['desc']
         if (seal_info[PN]['note']){
             img.note = seal_info[PN]['note']
         }
@@ -287,7 +287,7 @@ function showFuInfo(fu_info,fgImg,key,event) {
     let infoContent ="";
     // infoContent += imgCopy.outerHTML;
     infoContent += `<h2>${fu_info.name || key}</h2>`;
-    infoContent += `<h4>${fu_info.description}  </h4>`;
+    infoContent += `<h4>${fu_info.desc}  </h4>`;
 
     if (fu_info.plus) {
         infoContent += `<h4>
