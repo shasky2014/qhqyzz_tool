@@ -6,6 +6,9 @@ venv/
 ENV/
 .venv/
 env/
+.ipynb_checkpoints/
+*.ipynb
+*.xlsx
 
 # macOS
 .DS_Store
